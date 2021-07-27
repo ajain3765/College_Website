@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+body{        
+  padding-top: 60px;
+  margin-left: 0;
+  margin-right: 0;
+} 
+.container{
+   width: 100%;
+   margin: 0 auto; /* Center the DIV horizontally */
+}
+.fixed-header{
+   width: 100%;
+   position: fixed;        
+   background: #111;
+   padding: 10px 0;
+   color: #fff;
+   top: 0;
+}
+.login{
+  margin: 20px 20px 0 0;
+}
+.login a{
+  padding: 0 2px;
+  color: #fff;
+  padding: 7px 12px;
+  text-decoration: none;
+}
+.login a span{
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.login a span:hover{
+  background: #f12020;
+}
+footer{
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  margin-top: 10px;
+  background: #111;
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+.box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+.box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #f12020;
+  top: -10px;
+}
+.box .content p{
+  text-align: justify;
+  color: #fff;
+}
+.box .content .social{
+  margin: 20px 0 0 0;
+}
+.box .content .social a{
+  padding: 0 2px;
+  color: #fff;
+}
+.box .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.box .content .social a span:hover{
+  background: #f12020;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+  color: #fff;
+}
+.bottom center span{
+  color: #656565;
+}
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+  .fixed-header{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .fixed-header .login{
+    margin: 5px 0;
+  }
+}
+.tab {
+  overflow: hidden;
+  border: none;
+  background-color: #111;
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 20px 20px;
+  padding-left: 20px;
+  transition: 0.3s;
+  font-size: 18px;
+  color: #fff;
+}
+.tab button:hover {
+  background-color: #f12020;
+}
+.tab button.active {
+  background-color: #f12020;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: none;
+  border-top: none;
+  color: #111;
+}
+
+h3{
+  color: #f12020;
+}
+
+a{
+  text-decoration: none;
+}
+
+/******** for contact page ********/
+
+.map-container{
+  background-color:gray;
+  color:white;
+  height:330px;
+}
+
+.map-outer{    
+  float:left;
+}
+
+.text{
+  width:400px;
+  float:left;
+  margin-top:50px;
+  margin-left:50px;
+}
